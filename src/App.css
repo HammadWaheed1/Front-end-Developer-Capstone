@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Markazi+Text:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi-Text:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Markazi+Text:wght@400;500;600;700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+/*Nav Bar*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15%;
+}
+
+.nav-bar img {
+  width: 200px;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-family: Markazi Text;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.nav-item:hover {
+  color: #495e57;
+}
+
+/*Call to Action - Hero section*/
+
+.hero-section {
+  background-color: #f4ce14;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+
+.intro {
+  text-align: left;
+  padding: 0px 10%;
+}
+
+summary h1 {
+  font-family: Markazi Text;
+  font-size: 58px;
+  font-weight: 400;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #495e57;
+}
+
+.city {
+  font-family: Markazi Text;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 0;
+  align-self: flex-start;
+  color: #333333;
+}
+
+.hero-section a {
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: rgba(73, 94, 87);
+  color: #edefee;
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-section a:hover {
+  background-color: rgba(73, 94, 87, 0.9);
+  color: #edefee;
+}
+
+.description {
+  align-self: start;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 26px;
+  font-family: Karla;
+  margin-bottom: 45px;
+  padding-right: 30px;
+  color: #333333;
+}
+
+.hero-section img {
+  width: 250px;
+  height: auto;
+  border-radius: 18px;
+  margin: 8px 9%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Specials*/
+
+.specials {
+  align-items: center;
+  padding: 10px 15%;
+  margin: 5% 0 10% 0;
+  font-family: Karla;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.specials h1 {
+  font-family: "Markazi Text";
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.specials .online-order-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  margin-right: 15px;
+  background-color: rgba(73, 94, 87);
+  color: #edefee;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.specials .online-order-btn:hover {
+  background-color: rgba(73, 94, 87, 0.9);
+  color: #edefee;
+}
+
+.specials .container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.specials figure {
+  padding: 0px;
+  margin: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.specials .card-body {
+  margin: 10px 14px;
+  padding-top: 5px;
+}
+
+.specials img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: rgba(73, 94, 87);
+  padding: 10px 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #edefee;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  background-color: rgba(73, 94, 87, 0.9);
+  color: #edefee;
+}
+
+figcaption {
+  margin: 12px 30px;
+  text-align: left;
+}
+
+figcaption h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+figcaption small {
+  font-size: 18px;
+  color: red;
+}
+
+figcaption p {
+  text-align: left;
+}
+
+figcaption a {
+  align-items: left;
+}
+
+/*Testimonials*/
+
+.testimonials {
+  background-color: #495e57;
+  padding: 35px 15%;
+}
+
+.testimonials .sub-heading {
+  text-align: center;
+}
+
+.testimonials .sub-heading h1 {
+  color: #edefee;
+  font-family: Markazi Text;
+  font-size: 48px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.testimonials .border {
+  width: 190px;
+  height: 5px;
+  background-color: #fbdabb;
+  margin: 20px auto;
+}
+
+.testimonials .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonials figure img {
+  border-radius: 50%;
+  width: 140px;
+  height: 130px;
+  margin-top: 20px;
+}
+
+.testimonials figcaption {
+  text-align: left;
+  color: #edefee;
+}
+
+.testimonials strong {
+  padding-bottom: 16px;
+  font-size: 18px;
+  font-family: Karla;
+}
+
+.testimonials p {
+  color: #edefee;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.testimonials .review-star {
+  color: #f4ce14;
+  margin: 10px 0 10px 0;
+}
+
+/*About - Chicago.js*/
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 16%;
+  margin: 45px 0 55px 0;
+}
+
+.about-summary {
+  text-align: left;
+  padding: 0px 8%;
+  font-family: "Markazi Text";
+}
+
+.about-summary h1 {
+  font-weight: 500;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 77px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section .underline {
+  width: 200px;
+  height: 5px;
+  background-color: #f4ce14;
+  margin-bottom: 14px;
+}
+.about-summary .about-city {
+  font-family: Markazi Text;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 0;
+  align-self: flex-start;
+  color: #333333;
+}
+.about-section p {
+  font-family: Karla;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 45px;
+  color: #333333;
+}
+
+.about-section img {
+  position: relative;
+  top: 20px;
+  width: 420px;
+  border-radius: 45px 0 45px 0;
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Footer*/
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edefee;
+  padding: 30px 18%;
+}
+
+.footer-section img {
+  position: relative;
+  top: 22px;
+  width: 80px;
+  height: 130px;
+}
+
+.footer-section ul {
+  font-size: 18px;
+  padding: 0;
+  font-weight: 500;
+  text-align: left;
+  color: #333333;
+  font-family: Karla;
+}
+
+.footer-section .list li {
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  text-align: left;
+  color: rgb(129, 129, 129);
+  line-height: 22px;
+}
+.footer-section .list a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+}
+
+.footer-section .list a:hover {
+  text-decoration: underline;
+  color: rgb(90, 90, 90);
+}
+
+.footer-section .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-right: 5px;
+  color: gray;
+}
+
+/*Reservation Page   background-color: #495e57;*/
+.booking-form .title {
+  background-image: url(images/littlelemon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+.booking-form .title h1 {
+  font-family: Markazi Text;
+  font-size: 74px;
+  font-weight: 500;
+  color: #495e57;
+  margin: 0 auto;
+  text-shadow: 3px 4px 7px rgba(245, 223, 112, 0.8);
+}
+
+.booking-form .container {
+  padding: 0px;
+}
+
+.booking-form form h2 {
+  text-align: left;
+  font-family: Karla;
+  font-size: 28px;
+}
+
+.booking-form form .border {
+  width: 200px;
+  height: 5px;
+  background-color: #f4ce14;
+  border: none;
+  margin-bottom: 14px;
+}
+
+.booking-form form {
+  padding: 5% 10%;
+}
+
+.booking-form form fieldset > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.booking-form form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0 15px 0;
+  padding-bottom: 5px;
+}
+
+.booking-form form .user-details label {
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.booking-form form .user-details label input {
+  width: 180px;
+  margin-left: 8px;
+  border-radius: 6px;
+  background-color: #edefee;
+  color: #495e57;
+}
+
+.booking-form form .user-details label select {
+  margin-left: 8px;
+}
+
+input,
+select {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+input:fous:invalid {
+  border:2px solid red;
+}
+
+.booking-form .container textarea {
+  margin-top: 8px;
+  width: 100%;
+  height: 150px;
+  background-color: #edefee;
+  color: #333333;
+}
+
+.booking-form .notes {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.booking-form form .AvailabilityBtn {
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 14px 28px;
+  background-color: rgb(244, 205, 20);
+  color: #495e57;
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.booking-form form .AvailabilityBtn:hover {
+  background-color: rgb(244, 205, 20, 0.9);
+}
+
+.booking-form select {
+  padding: 8px 32px;
+  background-color: #edefee;
+  color: #495e57;
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*ABout & Inquiries*/
+.inquiries-page {
+  background-color: #edefee;
+  padding: 30px;
+  font-family: Karla;
+}
+
+.inquiries-page .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inquiries-page .flex-container .res-bottom-list {
+  margin: 8px 5%;
+  text-align: left;
+}
+
+.inquiries-page .flex-container .res-bottom-list ul {
+  font-size: 16px;
+  font-weight: 600;
+  color: #495e57;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.inquiries-page .flex-container .res-bottom-list li {
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  color: rgb(129, 129, 129);
+  line-height: 22px;
+}
+
+.inquiries-page .flex-container .res-bottom-list li a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+  align-items: left;
+}
+.inquiries-page .flex-container .res-bottom-list li a:hover {
+  color: #495e57;
+}
+
+.inquiries-page .privacy-section {
+  font-family: Karla;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inquiries-page .privacy-section .row {
+  margin: 15px 0px 8px 0px;
+}
+
+.inquiries-page .privacy-section .row .col a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+.inquiries-page .privacy-section .row .col a:hover {
+  color: rgb(85, 85, 85, 0.8);
+}
+
+/* social-links*/
+.social-links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-links-list .social-links {
+  margin: 12px 16px;
+}
+
+.socialLink footer {
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.confirmed-page section {
+  background-image: url(images/littlelemon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+.confirmed-page section h1 {
+  font-family: Markazi Text;
+  font-size: 74px;
+  font-weight: 500;
+  color: #495e57;
+  margin: 0 auto;
+  text-shadow: 3px 4px 8px rgba(245, 223, 112, 0.8);
+}
+
+.confirmed-page .confirmed-message {
+  background-color: #edefee;
+  margin: 5% 8%;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmed-page .confirmed-message h2 {
+  color: #495e57;
+  font-size: 34px;
+  padding-bottom: 8px;
+}
+
+.confirmed-page .confirmed-message h5 {
+  font-size: 22px;
+  color: #333333;
+  padding-bottom: 8px;
+}
+
+.confirmed-page .confirmed-message h4 {
+  font-size: 20px;
+  color: #333333;
+  padding-bottom: 8px;
+}
+
+.confirmed-page .redirect-buttons > div {
+  display: inline-block;
+  margin: 8px 24px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.confirmed-page .redirect-buttons > div a {
+  text-decoration: none;
+  border: 1px solid #495e57;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #333333;
+  margin: 0px 10px;
+}
+
+.confirmed-page .redirect-buttons > div a:hover {
+  border: 1px solid #495e57;
+  border-radius: 8px;
+  background-color: #f4ce14;
+  padding: 8px 12px;
+  color: #495e57;
+  transition: 1s ease-in-out;
+}
